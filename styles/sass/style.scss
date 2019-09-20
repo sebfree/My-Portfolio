@@ -1,0 +1,42 @@
+@import 'setup';
+@import 'general';
+
+// HEADER
+
+header {
+    background: $lightYellow;
+    height: 70vh;
+    overflow: hidden;
+    // position: relative;
+    padding-top: 50px;
+    // display: flex;
+}
+
+.about-me {
+    background: $darkYellow;
+    text-align: center;
+    width: 65rem;
+    height: 65rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-scroll {
+    position: fixed;
+    top: 50%;
+    right: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 3rem;
+    color: $darkBlue;
+}
+

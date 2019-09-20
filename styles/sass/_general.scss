@@ -1,0 +1,40 @@
+
+// variables
+
+$lightblue: #eafefc;
+$darkYellow: #fce75c;
+$lightYellow: #fdf383;
+$darkBlue: #2b2a46;
+$grey: #575757;
+
+
+/*<!--general ruleszzzzz-->*/
+html {
+	font-size: 62.5%;  
+
+
+}
+
+.wrapper {
+    max-width: 1180px;
+	margin: 0 auto;
+    width: 90%;
+    // position: relative;
+
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 7rem;
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    color: white;
+    margin: 0;
+
+}
+
