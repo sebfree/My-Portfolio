@@ -7,20 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700|Poppins:400,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="styles/style.css" />
 </head>
 
 <body>
 
     <header>
-        <nav class="nav-scroll">
+        <!-- <nav class="nav-scroll">
             <ul>
                 <li>About moi</li>
                 <li>Stuff I made</li>
                 <li>Skillz</li>
                 <li>Get in touch</li>
             </ul>
-        </nav>
+        </nav> -->
 
         <div class="wrapper header-stuff">
             <div class="header-copy">
@@ -34,7 +36,8 @@
         <div class="wrapper">
             <div class="about-me-pic">
                 <video loop autoplay>
-                    <source src="assets/About-Me-Vid.mp4" type="video/mp4" alt="video loop of Seb Freeman quickly turning around, looking surprised, and smiling">
+                    <source src="assets/About-Me-Vid.mp4" type="video/mp4"
+                        alt="video loop of Seb Freeman quickly turning around, looking surprised, and smiling">
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -43,7 +46,10 @@
                 <div class="wavy">
                     <img class="squiggles" src="assets/squiggly.png" alt="squiggly yellow line">
                 </div>
-                <p>I'm a web developer based out of Toronto.  I spend my free time building on my web-dev skills and as a musician, I like to write quirky theme songs for fictional sitcoms.  I like people!  I'm excited to build apps with a team of developers that I can add my voice to and grow with.</p>
+                <p class="bio-copy">I'm a web developer based out of Toronto. I spend my free time building on my
+                    web-dev skills and as a
+                    musician, I like to write quirky theme songs for fictional sitcoms. I like people! I'm excited to
+                    build apps with a team of developers that I can add my voice to and grow with.</p>
             </div>
         </div>
     </section>
@@ -51,63 +57,123 @@
     <section class="work-section">
         <div class="wrapper">
             <h2>Stuff I made</h2>
+            <div class="wavy">
+                <img class="squiggles" src="assets/squiggly.png" alt="squiggly yellow line">
+            </div>
             <div class="gallery">
-                <div class="piece-1">
-                    <img src="" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora impedit molestias facilis
-                        explicabo
-                        dicta asperiores accusantium unde repellendus possimus distinctio?</p>
-                    <button>See it live</button>
-                    <button>Check out the code</button>
+                <div class="pieces">
+                    <img class="work-piece" src="assets/Chuck-Desktop.png"
+                        alt="image of a desktop computer that contains a screenshot of the Chuckin' Norris app.  It is a retro, 90's looking app, with two main text areas, a cartoon image of Chuck Norris and has a yellow and red background">
                 </div>
-                <div class="piece-2">
-                    <img src="" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora impedit molestias facilis
-                        explicabo
-                        dicta asperiores accusantium unde repellendus possimus distinctio?</p>
-                    <button>See it live</button>
-                    <button>Check out the code</button>
+                <div class="pieces">
+                    <h3>Chuckin' Norris</h3>
+                    <p>Have you ever wondered what Chuck Norris is REALLY about? This app will help solve your wonder,
+                        one joke at a time! Fetch as many jokes as you like and laugh your day away. Feel free to add
+                        your favourite jokes to the community board for all Norris fans to see.</p>
+                    <div class="buttons-container">
+                        <button>See it live</button>
+                        <button>Check out the code</button>
+                    </div>
                 </div>
-                <div class="piece-3">
-                    <img src="" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora impedit molestias facilis
-                        explicabo
-                        dicta asperiores accusantium unde repellendus possimus distinctio?</p>
-                    <button>See it live</button>
-                    <button>Check out the code</button>
+            </div>
+            <div class="gallery">
+                <div class="pieces">
+                    <h3>WrestleNamia</h3>
+                    <p>Everyone dreams of being a pro wrestler - am I right? This app is here to help you on your
+                        journey by giving you a sweet pro wresler name!</p>
+                    <div class="buttons-container">
+                        <button>See it live</button>
+                        <button>Check out the code</button>
+                    </div>
                 </div>
-                <div class="piece-4">
-                    <img src="" alt="">
+                <div class="pieces">
+                    <img class="work-piece" src="assets/WrestleNamia.png"
+                        alt="Image of Wrestlenamia app. There are drawings of 4 wrestlers on the screen and a form with a yellow background to fill out. The background is neon pink and the WresteNamia logo is neon green">
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="pieces-spin-image">
+                    <img class="work-piece-spin" src="assets/SpinQ-iPad.png"
+                        alt="Spin-Q-Wiz app showcased on mobile phones, both landscape and vertical.  Spin-Q-Wiz features a multicolored wheel, with checkboxes for your answer tont he question displayed on the screen.  The background is a light grey.">
+                </div>
+                <div class="pieces">
+                    <h3>Spin-Q-Wiz</h3>
+                    <p>For all of you trivia heads out there - take this app for a Spin! This app was pair-programmed
+                        with the ultra-talented Armenia Cole.</p>
+                    <div class="buttons-container">
+                        <button>See it live</button>
+                        <button>Check out the code</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="pieces">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora impedit molestias facilis
                         explicabo
                         dicta asperiores accusantium unde repellendus possimus distinctio?</p>
-                    <button>See it live</button>
-                    <button>Check out the code</button>
+                    <div class="buttons-container">
+                        <button>See it live</button>
+                        <button>Check out the code</button>
+                    </div>
+                </div>
+                <div class="pieces">
+                    <img class="work-piece" src="assets/Chuck-Desktop.png" alt="">
                 </div>
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="skills-section">
         <div class="wrapper">
             <h2>Skills</h2>
-            <div class="favicon-flex">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+            <div class="wavy">
+                <img class="squiggles" src="assets/squiggly.png" alt="squiggly yellow line">
             </div>
+            <ul class="skills-icons-container">
+                <li class="skills-icon">
+                    <i class="devicon-html5-plain-wordmark" alt="html5 logo"></i>
+                </li>
+                <li class="skills-icon">
+                    <i class="devicon-css3-plain" alt="css3 logo"></i>
+                </li>
+                <li class="skills-icon">
+                    <i class="devicon-sass-original" alt="sass logo"></i>
+                </li>
+
+                <li class="skills-icon">
+                    <i class="devicon-javascript-plain" alt="JavaScript logo"></i>
+                </li>
+                <li class="skills-icon">
+                    <i class="devicon-jquery-plain" alt="jquery logo"></i>
+                </li>
+                <li class="skills-icon">
+                    <i class="devicon-react-original" alt="React logo"></i>
+                </li>
+
+                <li class="skills-icon">
+                    <i class="devicon-github-plain" alt="Github logo"></i>
+                </li>
+                <li class="skills-icon">
+                    <i class="devicon-git-plain" alt="Git logo"></i>
+                </li>
+
+                    <li class="firebase-skills-icon">
+                            <!-- <div class="flex-firebase"> -->
+                        <img class="firebase-logo" src="assets/firebase-3.png" alt="firebase logo">
+                    <!-- </div> -->
+                    </li>
+
+
+            </ul>
         </div>
     </section>
 
     <section>
         <div class="wrapper">
             <h2>Contact</h2>
+            <div class="wavy">
+                <img class="squiggles" src="assets/squiggly.png" alt="squiggly yellow line">
+            </div>
             <p>free.sebastian@gmail.com</p>
             <form action="">
                 <fieldset>

@@ -16,12 +16,18 @@ html {
 }
 
 .wrapper {
-    max-width: 980px;
+    max-width: 1180px;
 	margin: 0 auto;
     width: 90%;
     // position: relative;
 
 }
+
+img {
+    max-width: 100%;
+}
+
+// fonts
 
 h1 {
     font-family: 'Poppins', sans-serif;
@@ -40,9 +46,76 @@ h2 {
 
 }
 
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: $darkBlue;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 2rem;
+
+}
+
 p {
     font-family: 'Anonymous Pro', monospace;
     font-size: 2rem;
     color:$grey;
+    margin: 0;
+
 }
+
+// Squiggles
+
+.squiggles {
+    width: 13rem;
+}
+
+// Buttons
+
+button {
+    background: white;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 2rem;
+    color:$grey;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    position: relative;
+    z-index: 1;
+    // outline: none;
+    border: 2px solid $darkYellow;
+
+}
+  
+  button::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $lightYellow;
+    transform-origin: center right;
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  button:hover::before {
+    transform-origin: center left;
+    transform: scaleX(1);
+    border-radius: 2rem;
+  }
+
+
+.buttons-container {
+    text-align: center;
+    padding-top: 2rem;
+    position: relative;
+}
+
 
