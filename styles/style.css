@@ -185,33 +185,41 @@ html {
 }
 
 .wrapper {
-  max-width: 1180px;
+  max-width: 980px;
   margin: 0 auto;
   width: 90%;
 }
 
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 7rem;
-  color: white;
+  font-size: 8rem;
+  color: #2b2a46;
   margin: 0;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 3.5rem;
-  color: white;
+  color: #2b2a46;
   margin: 0;
+  text-align: center;
+}
+
+p {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 2rem;
+  color: #575757;
 }
 
 header {
   background: #fdf383;
   height: 70vh;
   overflow: hidden;
+  position: relative;
   padding-top: 50px;
 }
 
-.about-me {
+.header-stuff {
   background: #fce75c;
   text-align: center;
   width: 65rem;
@@ -228,10 +236,18 @@ header {
           align-items: center;
 }
 
+.header-copy {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 100px;
+}
+
 .nav-scroll {
   position: fixed;
   top: 50%;
-  right: 5%;
+  right: 10%;
 }
 
 ul {
@@ -242,4 +258,40 @@ li {
   font-family: 'Anonymous Pro', monospace;
   font-size: 3rem;
   color: #2b2a46;
+}
+
+.about-me-pic {
+  position: relative;
+}
+
+video {
+  position: absolute;
+  top: -10rem;
+  left: 50%;
+  margin-left: -12.5rem;
+  width: 25rem;
+  border-radius: 50%;
+  border: 5px solid #fdf383;
+  height: 25rem;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.about-me-copy {
+  padding-top: 18.5rem;
+  color: #2b2a46;
+}
+
+.work-section {
+  padding-top: 2rem;
+}
+
+.wavy {
+  color: #fce75c;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.squiggles {
+  width: 13rem;
 }

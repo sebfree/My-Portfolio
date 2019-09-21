@@ -1,7 +1,7 @@
 
 // variables
 
-$lightblue: #eafefc;
+$lightBlue: #eafefc;
 $darkYellow: #fce75c;
 $lightYellow: #fdf383;
 $darkBlue: #2b2a46;
@@ -16,7 +16,7 @@ html {
 }
 
 .wrapper {
-    max-width: 1180px;
+    max-width: 980px;
 	margin: 0 auto;
     width: 90%;
     // position: relative;
@@ -25,16 +25,24 @@ html {
 
 h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 7rem;
-    color: white;
+    font-size: 8rem;
+    color: $darkBlue;
     margin: 0;
 }
 
 h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 3.5rem;
-    color: white;
+    color: $darkBlue;
     margin: 0;
+    text-align: center;
+    // text-decoration-style: wavy;
 
+}
+
+p {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 2rem;
+    color:$grey;
 }
 
