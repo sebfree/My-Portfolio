@@ -467,10 +467,16 @@ video {
           justify-content: space-evenly;
 }
 
-.contact-copy {
-  width: 45%;
-  padding: 2rem;
+.contact-copy-left {
+  width: 40%;
   margin: 0;
+}
+
+.contact-copy-right {
+  width: 60%;
+  margin: 0;
+  text-align: center;
+  padding-top: 1.5rem;
 }
 
 fieldset {
@@ -484,17 +490,47 @@ fieldset {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 0 1rem 2rem;
+  margin: 0 0 1rem;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
 .contact-form-comment {
-  padding: 5rem;
+  padding: 2.5rem;
   width: 100%;
+  margin-bottom: 2rem;
+}
+
+.contact-form-copy {
+  padding: 1rem;
+  width: 90%;
+  margin-bottom: 2rem;
 }
 
 .contact-form-right {
+  text-align: center;
+  width: 60%;
+}
+
+.contact-form-left {
+  width: 40%;
+}
+
+input, textarea {
+  border-radius: 2rem;
+  border: 2px solid #575757;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 2rem;
+  color: #2b2a46;
+}
+
+.email-address {
+  color: #2b2a46;
+  font-weight: bold;
+}
+
+footer {
+  background: #fdf383;
   text-align: center;
 }
