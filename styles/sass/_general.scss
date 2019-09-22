@@ -6,6 +6,7 @@ $darkYellow: #fce75c;
 $lightYellow: #fdf383;
 $darkBlue: #2b2a46;
 $grey: #575757;
+$offWhite: #f9f9f9;
 
 
 /*<!--general ruleszzzzz-->*/
@@ -19,13 +20,19 @@ html {
     max-width: 1180px;
 	margin: 0 auto;
     width: 90%;
+    // background: $offWhite;
     // position: relative;
 
 }
 
 img {
     max-width: 100%;
+
 }
+
+// body {
+//     background: $offWhite;
+// }
 
 // fonts
 
