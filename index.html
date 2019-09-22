@@ -15,14 +15,37 @@
 <body>
 
     <header>
-        <nav class="nav-scroll">
+
+
+        <!-- <nav class="nav-scroll" id="navbar">
             <ul>
-                <li>About moi</li>
-                <li>Stuff I made</li>
-                <li>Skillz</li>
-                <li>Get in touch</li>
+                <li><span></span>About moi</li>
+                <li><span></span>Stuff I made</li>
+                <li><span></span>Skillz</li>
+                <li><span></span>Get in touch</li>
             </ul>
-        </nav>
+        </nav> -->
+
+        <div class="wrapper">
+            <div class="menu">
+                <div class="hamburger-menu-wrapper">
+                    <button class="hamburger-menu">
+                        <span>toggle menu</span>
+                    </button>
+                </div>
+                <div class="menu-list">
+                    <a href="#">Home</a><br>
+                    <a href="#">About</a><br>
+                    <a href="#">Work</a><br>
+                    <a href="#">Skills</a><br>
+                    <a href="#">Contact</a><br>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="menu-overlay"></div> -->
+
+
 
         <div class="wrapper header-stuff">
             <div class="header-copy">
@@ -170,7 +193,8 @@
             <!-- <div class="contact-top-flex"> -->
             <div class="contact-top-copy">
                 <h2 class="contact-copy-left">Get in Touch</h2>
-                <p class="contact-copy-right">Let's build something cool!  Shoot me an email: <span class="email-address">free.sebastian@gmail.com</span></p>
+                <p class="contact-copy-right">Let's build something cool! Shoot me an email: <span
+                        class="email-address">free.sebastian@gmail.com</span></p>
             </div>
             <form action="http://www.focuspocus.io/magic/free.sebastian@gmail.com" method="POST">
                 <fieldset class="clearfix">
@@ -186,7 +210,8 @@
                             <label for="comment"></label>
                             <!-- <input class="contact-form-comment" type="text" name="comment" id="comment"
                                 placeholder="Message"> -->
-                                <textarea class="contact-form-comment" type="text" name="comment" id="comment" placeholder="Message" cols="30" rows="10"></textarea>
+                            <textarea class="contact-form-comment" type="text" name="comment" id="comment"
+                                placeholder="Message" cols="30" rows="10"></textarea>
                             <button class="contact-button" type="submit">Submit</button>
                         </div>
                     </div>
@@ -199,6 +224,12 @@
     <footer>
         <p>&copy; Seb Freeman 2019</p>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/path/to/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script src="scripts/script.js"></script>
 
 
 </body>

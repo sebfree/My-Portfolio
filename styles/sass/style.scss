@@ -1,5 +1,6 @@
 @import 'setup';
 @import 'general';
+@import 'scroll';
 
 // HEADER
 
@@ -31,9 +32,20 @@ header {
 
 .nav-scroll {
     position: fixed;
-    top: 50%;
+    top: 0;
     right: 10%;
 }
+
+// .nav-circles {
+//     width: 1rem;
+//     height: 1rem;
+//     border: 2px solid $darkBlue;
+//     border-radius: 50%;
+// }
+
+// .nav-circles:hover {
+//     background-color: $grey;
+// }
 
 ul {
     list-style: none;
