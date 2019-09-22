@@ -281,7 +281,7 @@ button:hover::before {
 
 header {
   background: #fdf383;
-  height: 75vh;
+  height: 80vh;
   overflow: hidden;
   position: relative;
   padding-top: 50px;
@@ -422,6 +422,79 @@ video {
   padding: inherit;
 }
 
+.easter-egg {
+  display: none;
+}
+
+.skills-icon:hover {
+  -webkit-animation: spin 1.5s ease-in-out infinite;
+          animation: spin 1.5s ease-in-out infinite;
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotateY(540deg);
+            transform: rotateY(540deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotateY(540deg);
+            transform: rotateY(540deg);
+  }
+}
+
 .firebase {
   margin: 0;
+}
+
+.contact-section {
+  background: #fdf383;
+  padding: 7.5rem 0;
+}
+
+.contact-background {
+  background: white;
+}
+
+.contact-top-copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contact-copy {
+  width: 45%;
+  padding: 2rem;
+  margin: 0;
+}
+
+fieldset {
+  padding: 2rem;
+  border: transparent;
+}
+
+.contact-form-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 1rem 2rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contact-form-comment {
+  padding: 5rem;
+  width: 100%;
+}
+
+.contact-form-right {
+  text-align: center;
 }

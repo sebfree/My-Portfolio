@@ -15,14 +15,14 @@
 <body>
 
     <header>
-        <!-- <nav class="nav-scroll">
+        <nav class="nav-scroll">
             <ul>
                 <li>About moi</li>
                 <li>Stuff I made</li>
                 <li>Skillz</li>
                 <li>Get in touch</li>
             </ul>
-        </nav> -->
+        </nav>
 
         <div class="wrapper header-stuff">
             <div class="header-copy">
@@ -132,6 +132,7 @@
             <ul class="skills-icons-container">
                 <li class="skills-icon">
                     <i class="devicon-html5-plain-wordmark circle" alt="html5 logo"></i>
+                    <p class="easter-egg">Hi!</p>
                 </li>
                 <li class="skills-icon">
                     <i class="devicon-css3-plain circle" alt="css3 logo"></i>
@@ -164,33 +165,35 @@
         </div>
     </section>
 
-    <section>
-        <div class="wrapper">
-            <h2>Contact</h2>
-            <div class="wavy">
-                <img class="squiggles" src="assets/squiggly.png" alt="squiggly yellow line">
+    <section class="contact-section">
+        <div class="wrapper contact-background">
+            <!-- <div class="contact-top-flex"> -->
+            <div class="contact-top-copy">
+                <h2 class="contact-copy">Contact</h2>
+                <p class="contact-copy">Let's build something cool! Hit me up below or shhot me an email here
+                    free.sebastian@gmail.com</p>
             </div>
-            <p>free.sebastian@gmail.com</p>
             <form action="">
-                <fieldset>
-                    <div class="contact-form-row-flex">
-                        <div class="contact-form-yellow-bottom-border-left">
+                <fieldset class="clearfix">
+                    <div class="contact-form-flex">
+                        <div class="contact-form-left">
                             <label for="name"></label>
                             <input class="contact-form-flex" type="text" name="name" id="name" placeholder="Name">
-                        </div>
-
-                        <div class="contact-form-yellow-bottom-border-right">
                             <label for="email"></label>
                             <input class="contact-form-flex" type="email" placeholder="Email" id="email">
+
                         </div>
+                        <div class="contact-form-right">
+                            <label for="comment"></label>
+                            <input class="contact-form-comment" type="text" name="comment" id="comment"
+                                placeholder="Message">
+                                <button class="contact-button" type="submit">Submit</button>
+                        </div>
+                        
                     </div>
 
-                    <div class="contact-form-comment-box-border">
-                        <label for="comment"></label>
-                        <input class="contact-form-comment" type="text" name="comment" id="comment"
-                            placeholder="Message">
-                    </div>
-                    <button class="contact-button" type="submit">Submit</button>
+
+
                 </fieldset>
             </form>
         </div>
@@ -199,10 +202,6 @@
 
     <footer>
         <p>&copy; Seb Freeman 2019</p>
-        <p>
-            <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
-                    href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        </p>
     </footer>
 
 
