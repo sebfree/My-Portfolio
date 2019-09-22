@@ -107,6 +107,9 @@ button {
     transform-origin: center right;
     transform: scaleX(0);
     transition: transform 0.25s ease-in-out;
+    border-radius: 2rem;
+    overflow: hidden;
+    
   }
   
   button:hover {
@@ -117,6 +120,7 @@ button {
     transform-origin: center left;
     transform: scaleX(1);
     border-radius: 2rem;
+    overflow: hidden;
   }
 
 

@@ -259,6 +259,8 @@ button::before {
   transition: -webkit-transform 0.25s ease-in-out;
   transition: transform 0.25s ease-in-out;
   transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  border-radius: 2rem;
+  overflow: hidden;
 }
 
 button:hover {
@@ -271,6 +273,7 @@ button:hover::before {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
   border-radius: 2rem;
+  overflow: hidden;
 }
 
 .buttons-container {
@@ -281,7 +284,7 @@ button:hover::before {
 
 header {
   background: #fdf383;
-  height: 80vh;
+  height: 77.5vh;
   overflow: hidden;
   position: relative;
   padding-top: 50px;
@@ -336,11 +339,11 @@ video {
   position: absolute;
   top: -10rem;
   left: 50%;
-  margin-left: -12.5rem;
-  width: 25rem;
+  margin-left: -13.5rem;
+  width: 27rem;
   border-radius: 50%;
   border: 5px solid #fdf383;
-  height: 25rem;
+  height: 27rem;
   -o-object-fit: fill;
      object-fit: fill;
 }
@@ -531,6 +534,6 @@ input, textarea {
 }
 
 footer {
-  background: #fdf383;
+  background: #fce75c;
   text-align: center;
 }
