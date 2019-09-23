@@ -1,19 +1,38 @@
 @import 'setup';
 @import 'general';
-@import 'scroll';
 
 // HEADER
 
-header {
+.nav-scroll {
+    background: white;
+    height: 5rem;
+
+
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-evenly;
+    // font-size: 2rem;
+}
+
+.nav-tinker {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color:$darkBlue;
+
+}
+
+.hero-section {
     background: $lightYellow;
-    height: 77.5vh;
+    height: 70vh;
     overflow: hidden;
     position: relative;
     padding-top: 50px;
 
 }
 
-.header-stuff {
+.hero-stuff {
     background: $darkYellow;
     text-align: center;
     width: 65rem;
@@ -25,34 +44,18 @@ header {
 
 }
 
-.header-copy {
+.hero-copy {
     flex-direction: column;
     padding-bottom: 100px;
 }
 
-.nav-scroll {
-    position: fixed;
-    top: 0;
-    right: 10%;
-}
-
-// .nav-circles {
-//     width: 1rem;
-//     height: 1rem;
-//     border: 2px solid $darkBlue;
-//     border-radius: 50%;
-// }
-
-// .nav-circles:hover {
-//     background-color: $grey;
-// }
 
 ul {
     list-style: none;
 }
 
 li {
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 3rem;
     color:$darkBlue;
 }
@@ -69,42 +72,55 @@ video {
     position: absolute;
     top: -10rem;
     left: 50%;
-    margin-left: -13.5rem;
-    width: 27rem;
+    margin-left: -12.5rem;
+    width: 25rem;
     border-radius: 50%;
     border: 5px solid $lightYellow;
-    height: 27rem;
+    height: 25rem;
     object-fit: fill;
 }
 
 .about-me-copy {
-    padding-top: 22rem;
+    padding-top: 20rem;
     color: $darkBlue;
+    
 } 
 
 .bio-copy {
-    padding-top: 7.5rem;
+    padding-top: 3rem;
     width:80%;
-    margin:0 auto;
+    margin:0 auto;  
   
+}
+
+.about-background {
+    background: $offWhite;
+    padding: 2rem 0 3rem;
+
 }
 
 // WORK
 
 .work-section {
-    padding-top: 7.5rem;
+    padding-top: 5.5rem;
+}
+
+.work-background {
+    background: $offWhite;
+    padding: 2rem 0;
+
 }
 
 
 .wavy {
     color: $darkYellow;
-    padding-top: 10px;
+    padding-top: 3rem;
     text-align: center;
 }
 
 .gallery {
     display: flex;
-    padding-top: 7.5rem;
+    padding-top: 3rem;
     // background: $offWhite;
     // min-height: 100%;
 
@@ -132,14 +148,19 @@ video {
 // Skills
 
 .skills-section {
-    padding-top: 7.5rem;
+    padding-top: 5.5rem;
     // background: $offWhite;
+}
+
+.skills-background {
+    background: $offWhite;
+    padding: 2.5rem 0 0rem;
 }
 
 .skills-icons-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 4rem 0;
+    padding: 0.5rem 0;
     // padding: 0;
     margin: 0 auto;
     // align-items: center;
@@ -152,8 +173,6 @@ video {
     color: $grey;
     padding: 2.5rem;
     margin-top:30px;
-    
-
 
 }
 
@@ -163,6 +182,7 @@ video {
     border-radius: 50%;
     margin:0;
     padding:inherit;
+    background: white;
 
 }
 
@@ -190,12 +210,13 @@ video {
 // Contact 
 
 .contact-section {
-    background: $lightYellow;
-    padding: 7.5rem 0;
+    // background: $lightYellow;
+    padding: 5.5rem 0;
 }
 
 .contact-background {
-    background: white;
+    background: $offWhite;
+    padding: 2rem 0 0;
 }
 
 
@@ -207,7 +228,6 @@ video {
 
 .contact-copy-left {
     width: 40%;
-    // padding: 2rem;
     margin: 0;
 }
 
@@ -220,8 +240,6 @@ video {
 
 
 fieldset {
-
-    // background: white;
     padding: 2rem;
     border: transparent;
 
@@ -256,7 +274,7 @@ fieldset {
 
 input, textarea {
     border-radius: 2rem;
-    border: 2px solid $grey;
+    border: 2px solid $darkYellow;
     font-family: 'Anonymous Pro', monospace;
     font-size: 2rem;
     color: $darkBlue;
@@ -266,17 +284,18 @@ input, textarea {
 .email-address {
     color: $darkBlue;
     font-weight: bold;
-    // font-size: 2.5rem;
 }
 
 
 // footer 
 
 footer {
-    background: $darkYellow;
+    background: white;
     text-align: center;
 
 }
+
+
 
 // ::placeholder { /* Firefox, Chrome, Opera */ 
 //     color: black;
