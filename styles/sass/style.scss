@@ -20,8 +20,27 @@
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
     color:$darkBlue;
+    position: relative;
 
 }
+
+  .nav-tinker::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: $darkYellow;
+    transform-origin: bottom right;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+  }
+  
+  .nav-tinker:hover::before {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+  }
 
 .hero-section {
     background: $lightYellow;
@@ -95,8 +114,15 @@ video {
 
 .about-background {
     background: $offWhite;
-    padding: 2rem 0 3rem;
+    padding: 2rem 0 6rem;
+    transition: 3s ease-out;
+   
 
+}
+
+.about-background:hover {
+    box-shadow: 0 0 5px $darkBlue;
+    
 }
 
 // WORK
@@ -107,8 +133,13 @@ video {
 
 .work-background {
     background: $offWhite;
-    padding: 2rem 0;
+    padding: 2rem 0 6rem;
+    transition: 3s ease-out;
 
+}
+
+.work-background:hover {
+    box-shadow: 0 0 5px $darkBlue;
 }
 
 
@@ -154,7 +185,12 @@ video {
 
 .skills-background {
     background: $offWhite;
-    padding: 2.5rem 0 0rem;
+    padding: 2.5rem 0 3.5rem;
+    transition: 3s ease-out;
+}
+
+.skills-background:hover {
+    box-shadow: 0 0 5px $darkBlue;
 }
 
 .skills-icons-container {
@@ -217,6 +253,11 @@ video {
 .contact-background {
     background: $offWhite;
     padding: 2rem 0 0;
+    transition: 3s ease-out;
+}
+
+.contact-background:hover {
+    box-shadow: 0 0 5px $darkBlue;
 }
 
 

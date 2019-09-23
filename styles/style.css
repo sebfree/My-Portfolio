@@ -194,6 +194,11 @@ img {
   max-width: 100%;
 }
 
+.site-box {
+  -webkit-box-shadow: 0 0 15px black;
+          box-shadow: 0 0 15px black;
+}
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 8rem;
@@ -250,7 +255,7 @@ button::before {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #fdf383c7;
+  background-color: #fce75c;
   -webkit-transform-origin: center right;
           transform-origin: center right;
   -webkit-transform: scaleX(0);
@@ -300,6 +305,32 @@ button:hover::before {
   font-family: 'Poppins', sans-serif;
   font-size: 2.5rem;
   color: #2b2a46;
+  position: relative;
+}
+
+.nav-tinker::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #fce75c;
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.nav-tinker:hover::before {
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 .hero-section {
@@ -375,7 +406,14 @@ video {
 
 .about-background {
   background: #f9f9f9;
-  padding: 2rem 0 3rem;
+  padding: 2rem 0 6rem;
+  -webkit-transition: 3s ease-out;
+  transition: 3s ease-out;
+}
+
+.about-background:hover {
+  -webkit-box-shadow: 0 0 5px #2b2a46;
+          box-shadow: 0 0 5px #2b2a46;
 }
 
 .work-section {
@@ -384,7 +422,14 @@ video {
 
 .work-background {
   background: #f9f9f9;
-  padding: 2rem 0;
+  padding: 2rem 0 6rem;
+  -webkit-transition: 3s ease-out;
+  transition: 3s ease-out;
+}
+
+.work-background:hover {
+  -webkit-box-shadow: 0 0 5px #2b2a46;
+          box-shadow: 0 0 5px #2b2a46;
 }
 
 .wavy {
@@ -425,7 +470,14 @@ video {
 
 .skills-background {
   background: #f9f9f9;
-  padding: 2.5rem 0 0rem;
+  padding: 2.5rem 0 3.5rem;
+  -webkit-transition: 3s ease-out;
+  transition: 3s ease-out;
+}
+
+.skills-background:hover {
+  -webkit-box-shadow: 0 0 5px #2b2a46;
+          box-shadow: 0 0 5px #2b2a46;
 }
 
 .skills-icons-container {
@@ -489,6 +541,13 @@ video {
 .contact-background {
   background: #f9f9f9;
   padding: 2rem 0 0;
+  -webkit-transition: 3s ease-out;
+  transition: 3s ease-out;
+}
+
+.contact-background:hover {
+  -webkit-box-shadow: 0 0 5px #2b2a46;
+          box-shadow: 0 0 5px #2b2a46;
 }
 
 .contact-top-copy {

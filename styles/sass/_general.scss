@@ -22,8 +22,7 @@ html {
 	margin: 0 auto;
     width: 90%;
     // border: 1px solid red;
-    // background: $offWhite;
-    // position: relative;
+
 
 }
 
@@ -32,9 +31,12 @@ img {
 
 }
 
-// body {
-//     background: $offWhite;
-// }
+// Site box shadow
+
+.site-box {
+    box-shadow: 0 0 15px black;
+}
+
 
 // fonts
 
@@ -51,7 +53,6 @@ h2 {
     color: $darkBlue;
     margin: 0;
     text-align: center;
-    // text-decoration-style: wavy;
 
 }
 
@@ -91,7 +92,6 @@ button {
     margin-left: 1rem;
     position: relative;
     z-index: 1;
-    // outline: none;
     border: 2px solid $darkYellow;
 
 }
@@ -104,7 +104,7 @@ button {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: $lightYellow;
+    background-color: $darkYellow;
     transform-origin: center right;
     transform: scaleX(0);
     transition: transform 0.25s ease-in-out;
