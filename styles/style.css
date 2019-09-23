@@ -228,6 +228,7 @@ p {
   font-size: 2rem;
   color: #575757;
   margin: 0;
+  letter-spacing: 1px;
 }
 
 .squiggles {
@@ -442,13 +443,13 @@ video {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 .pieces {
   width: 50%;
   margin: 0;
-  padding: 1rem;
+  padding: 5rem 3rem;
 }
 
 .work-piece {
@@ -462,6 +463,10 @@ video {
 
 .work-piece-spin {
   width: 35rem;
+}
+
+.pieces p {
+  padding-left: 3rem;
 }
 
 .skills-section {
