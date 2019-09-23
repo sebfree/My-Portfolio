@@ -250,7 +250,7 @@ button::before {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #fdf383;
+  background-color: #fdf383c7;
   -webkit-transform-origin: center right;
           transform-origin: center right;
   -webkit-transform: scaleX(0);
@@ -303,7 +303,7 @@ button:hover::before {
 }
 
 .hero-section {
-  background: #fdf383;
+  background: #fdf383c7;
   height: 70vh;
   overflow: hidden;
   position: relative;
@@ -356,30 +356,40 @@ video {
   margin-left: -12.5rem;
   width: 25rem;
   border-radius: 50%;
-  border: 5px solid #fdf383;
+  border: 5px solid #fdf383c7;
   height: 25rem;
   -o-object-fit: fill;
      object-fit: fill;
 }
 
 .about-me-copy {
-  padding-top: 22rem;
+  padding-top: 20rem;
   color: #2b2a46;
 }
 
 .bio-copy {
-  padding-top: 7.5rem;
+  padding-top: 3rem;
   width: 80%;
   margin: 0 auto;
 }
 
+.about-background {
+  background: #f9f9f9;
+  padding: 2rem 0 3rem;
+}
+
 .work-section {
-  padding-top: 7.5rem;
+  padding-top: 5.5rem;
+}
+
+.work-background {
+  background: #f9f9f9;
+  padding: 2rem 0;
 }
 
 .wavy {
   color: #fce75c;
-  padding-top: 10px;
+  padding-top: 3rem;
   text-align: center;
 }
 
@@ -387,7 +397,7 @@ video {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 7.5rem;
+  padding-top: 3rem;
 }
 
 .pieces {
@@ -410,7 +420,12 @@ video {
 }
 
 .skills-section {
-  padding-top: 7.5rem;
+  padding-top: 5.5rem;
+}
+
+.skills-background {
+  background: #f9f9f9;
+  padding: 2.5rem 0 0rem;
 }
 
 .skills-icons-container {
@@ -419,7 +434,7 @@ video {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 4rem 0;
+  padding: 0.5rem 0;
   margin: 0 auto;
 }
 
@@ -437,6 +452,7 @@ video {
   border-radius: 50%;
   margin: 0;
   padding: inherit;
+  background: white;
 }
 
 .easter-egg {
@@ -467,12 +483,12 @@ video {
 }
 
 .contact-section {
-  background: #fdf383;
-  padding: 7.5rem 0;
+  padding: 5.5rem 0;
 }
 
 .contact-background {
-  background: white;
+  background: #f9f9f9;
+  padding: 2rem 0 0;
 }
 
 .contact-top-copy {
@@ -536,7 +552,7 @@ fieldset {
 
 input, textarea {
   border-radius: 2rem;
-  border: 2px solid #575757;
+  border: 2px solid #fce75c;
   font-family: 'Anonymous Pro', monospace;
   font-size: 2rem;
   color: #2b2a46;
