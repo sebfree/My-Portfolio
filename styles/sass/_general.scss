@@ -96,11 +96,14 @@ button {
     color:$grey;
     padding: 1rem;
     border-radius: 2rem;
-    margin-left: 2rem;
     position: relative;
     z-index: 1;
     border: 2px solid $darkYellow;
 
+}
+
+.button-two {
+    margin-left: 2rem;
 }
   
   button::before {
