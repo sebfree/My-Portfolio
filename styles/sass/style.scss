@@ -1,19 +1,39 @@
 @import 'setup';
 @import 'general';
-@import 'scroll';
 
 // HEADER
 
-header {
+.nav-scroll {
+    background: white;
+    height: 5rem;
+
+
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-evenly;
+    // font-size: 2rem;
+}
+
+.nav-tinker {
+
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5rem;
+        color:$darkBlue;
+
+}
+
+.hero-section {
     background: $lightYellow;
-    height: 77.5vh;
+    height: 70vh;
     overflow: hidden;
     position: relative;
     padding-top: 50px;
 
 }
 
-.header-stuff {
+.hero-stuff {
     background: $darkYellow;
     text-align: center;
     width: 65rem;
@@ -25,34 +45,18 @@ header {
 
 }
 
-.header-copy {
+.hero-copy {
     flex-direction: column;
     padding-bottom: 100px;
 }
 
-.nav-scroll {
-    position: fixed;
-    top: 0;
-    right: 10%;
-}
-
-// .nav-circles {
-//     width: 1rem;
-//     height: 1rem;
-//     border: 2px solid $darkBlue;
-//     border-radius: 50%;
-// }
-
-// .nav-circles:hover {
-//     background-color: $grey;
-// }
 
 ul {
     list-style: none;
 }
 
 li {
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 3rem;
     color:$darkBlue;
 }
@@ -69,11 +73,11 @@ video {
     position: absolute;
     top: -10rem;
     left: 50%;
-    margin-left: -13.5rem;
-    width: 27rem;
+    margin-left: -12.5rem;
+    width: 25rem;
     border-radius: 50%;
     border: 5px solid $lightYellow;
-    height: 27rem;
+    height: 25rem;
     object-fit: fill;
 }
 
@@ -152,8 +156,6 @@ video {
     color: $grey;
     padding: 2.5rem;
     margin-top:30px;
-    
-
 
 }
 
@@ -273,10 +275,12 @@ input, textarea {
 // footer 
 
 footer {
-    background: $darkYellow;
+    background: white;
     text-align: center;
 
 }
+
+
 
 // ::placeholder { /* Firefox, Chrome, Opera */ 
 //     color: black;
