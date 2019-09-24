@@ -188,7 +188,6 @@ html {
   max-width: 1180px;
   margin: 0 auto;
   width: 90%;
-  border: 1px solid red;
 }
 
 img {
@@ -292,6 +291,47 @@ button:hover::before {
   position: relative;
 }
 
+.exitResponsive,
+.hamburger {
+  display: none;
+  font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+  a:hover {
+    color: inherit;
+  }
+  nav {
+    display: none;
+  }
+  ul li .nav-tinker {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  .show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+  }
+  .hamburger {
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 10;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+  }
+  .exitResponsive {
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+  }
+}
+
 .nav-scroll {
   background: white;
   height: 5rem;
@@ -330,6 +370,12 @@ button:hover::before {
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+@media (max-width: 768px) {
+  .nav-tinker::before {
+    display: none !important;
+  }
 }
 
 .nav-tinker:hover::before {

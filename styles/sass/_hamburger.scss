@@ -1,18 +1,35 @@
+.exitResponsive,
+.hamburger {
+   display: none;
+   font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+
+
+        a:hover { 
+            color: inherit; 
+        }
+    
+
 nav {
     display: none;
  }
 
+ul li .nav-tinker {
+    font-size: 2rem;
+    padding: 2rem;
+} 
 
- .exitResponsive,
- .hamburger {
+// ul li .nav-tinker:hover::before {
+//     content: '';
+//    background-color: none;
+// } 
 
-    display: none;
-    font-size: 3rem;
-    
- }
  .show {
      display: flex;
-    //  display: none;
+     justify-content: space-around;
+     transition: 1s ease;
  }
  .hamburger {
     margin: 0;
@@ -20,4 +37,12 @@ nav {
     top: 40px;
     right: 40px;
     z-index: 10;
+    transition: 1s ease;
+   
  }
+
+ .exitResponsive {
+     transition: 1s ease;
+ }
+ 
+}

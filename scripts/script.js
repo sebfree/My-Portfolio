@@ -30,6 +30,9 @@ $(function(){
            $(".hamburger").toggleClass('show');
            $(".exitResponsive").toggleClass('show');
         })
+
+    
+    
     
     // write a function that listens to a click on the exit icon
     // toggle class show on the menu
