@@ -72,7 +72,6 @@ p {
     color:$grey;
     margin: 0;
     letter-spacing: 1px;
-    // align-items: center;
 
 }
 
@@ -98,7 +97,9 @@ button {
     border-radius: 2rem;
     position: relative;
     z-index: 1;
-    border: 2px solid $darkYellow;
+    border: 3px solid $darkYellow;
+    overflow: hidden;
+    transition: color 0.4s ease-in-out;
 
 }
 
@@ -106,32 +107,29 @@ button {
     margin-left: 2rem;
 }
   
+
+// fill effect : https://cssfx.dev/
   button::before {
     content: '';
     z-index: -1;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 100%;
+    right: 100%;
     background-color: $darkYellow;
-    transform-origin: center right;
-    transform: scaleX(0);
-    transition: transform 0.25s ease-in-out;
+    transform-origin: center;
+    transform: translate3d(50%, -50%, 0) scale3d(0, 0, 0);
+    transition: transform 0.45s ease-in-out;
     border-radius: 2rem;
     overflow: hidden;
+    width: 3rem;
+    height: 3rem;
+
     
   }
   
-  button:hover {
-    cursor: pointer;
-  }
   
   button:hover::before {
-    transform-origin: center left;
-    transform: scaleX(1);
-    border-radius: 2rem;
-    overflow: hidden;
+    transform: translate3d(50%, -50%, 0) scale3d(15, 15, 15);
   }
 
 
