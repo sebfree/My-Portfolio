@@ -19,8 +19,22 @@ $(function(){
     portfolio.smoothScroll()
     portfolio.arrowUp()
 
+    $('.hamburger').click(function(){
+        // toggle class show on the menu
+            $("nav").toggleClass('show');
+           $(".hamburger").toggleClass('show');
+           $(".exitResponsive").toggleClass('show');
+        })
+        $('.exitResponsive').click(function(){
+            $("nav").toggleClass('show');
+           $(".hamburger").toggleClass('show');
+           $(".exitResponsive").toggleClass('show');
+        })
+    
+    // write a function that listens to a click on the exit icon
+    // toggle class show on the menu
+    });
 
-})
 
 
 

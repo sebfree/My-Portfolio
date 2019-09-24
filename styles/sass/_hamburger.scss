@@ -1,0 +1,23 @@
+nav {
+    display: none;
+ }
+
+
+ .exitResponsive,
+ .hamburger {
+
+    display: none;
+    font-size: 3rem;
+    
+ }
+ .show {
+     display: flex;
+    //  display: none;
+ }
+ .hamburger {
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 10;
+ }

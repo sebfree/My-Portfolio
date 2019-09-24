@@ -188,6 +188,7 @@ html {
   max-width: 1180px;
   margin: 0 auto;
   width: 90%;
+  border: 1px solid red;
 }
 
 img {
@@ -303,6 +304,7 @@ button:hover::before {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  padding: 0;
 }
 
 .nav-tinker {
