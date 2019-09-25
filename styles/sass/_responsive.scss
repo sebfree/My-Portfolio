@@ -16,12 +16,13 @@
         padding-right: 1rem;
     }
 
-    .buttons-container button {
-        font-size: 1.75rem;
-    }
+    // .buttons-container button {
+    //     font-size: 1.75rem;
+    // }
 
     .button-two {
-        margin-left: 1rem;
+        margin-left: 0;
+        margin-top: 2rem;
     }
 
     .contact-form-flex-top .contact-form-top {
@@ -34,6 +35,11 @@
 }
 
 @media (max-width: 905px) {
+
+    button.button-two {
+        margin-left: 2rem;
+
+    }
     div.pieces-spin-image-responsive {
         display: block;
         padding-bottom: 5rem;
@@ -166,7 +172,7 @@
     }
 
     ul li .nav-tinker {
-        font-size: 1.5rem;
+        font-size: 2rem;
 
     }
 
@@ -197,18 +203,41 @@
     }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 575px) {
+    header li {
+        display: flex;
+        text-align: center;
+    }
+
+    nav.nav-scroll.show {
+
+        height: 10rem;
+    
+    }
+}
+
+// @media (max-width: 500px) {
+
+    // li.skills-icon  {
+    //     width: 50%;
+    //     }
+    
+    
+    // }
+
+@media (max-width: 500px) {
 
     html {
         font-size: 50%;  
         .firebase {
-            width: 16rem;
+            display: none;
+        //     margin-left:4.5rem;
         }
     
     
     }
 
-    @media (max-width: 380px) {
+    @media (max-width: 420px) {
 
         html {
             font-size: 41%;
@@ -217,23 +246,32 @@
 
         p  {
             color: black;
+            font-size: 2rem;
         }
 
         button {
             color: black;
+            font-size: 2rem;
         }
 
         span.email-address {
             padding-top: 1rem;
         }
 
+
+        // nav.nav-scroll.show {
+
+        //     height: 12rem;
+        
+        // }
+
     
     }
 
-    @media (max-width: 339px) {
+    @media (max-width: 347px) {
 
         button.button-one {
-            margin-left: 1rem;
+            margin-left: 2rem;
         }
         button.button-two {
             margin-top: 2rem;
