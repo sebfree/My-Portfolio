@@ -715,7 +715,14 @@ video {
 }
 
 .armenia-link {
-  color: #2b2a46;
+  color: #dd5616;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.armenia-link:hover {
+  -webkit-box-shadow: 0 0 3px #2b2a46;
+          box-shadow: 0 0 3px #2b2a46;
 }
 
 .skills-section {

@@ -187,7 +187,12 @@ video {
 }
 
 .armenia-link {
-    color: $darkBlue;
+    color: #dd5616;
+    transition: 0.5s ease-out;
+}
+
+.armenia-link:hover {
+    box-shadow: 0 0 3px $darkBlue;
 }
 
 // Skills
