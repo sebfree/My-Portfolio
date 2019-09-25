@@ -21,15 +21,14 @@ ul li .nav-tinker {
     padding: 2rem;
 } 
 
-// ul li .nav-tinker:hover::before {
-//     content: '';
-//    background-color: none;
-// } 
+nav.nav-scroll.show {
+    height: 6rem;
+}
 
  .show {
      display: flex;
      justify-content: space-around;
-     transition: 1s ease;
+
  }
  .hamburger {
     margin: 0;

@@ -220,7 +220,7 @@ h3 {
   color: #2b2a46;
   margin: 0;
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 p {
@@ -287,7 +287,7 @@ button:hover::before {
 
 .buttons-container {
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 3rem;
   position: relative;
 }
 
@@ -308,14 +308,15 @@ button:hover::before {
     font-size: 2rem;
     padding: 2rem;
   }
+  nav.nav-scroll.show {
+    height: 6rem;
+  }
   .show {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    -webkit-transition: 1s ease;
-    transition: 1s ease;
   }
   .hamburger {
     margin: 0;
@@ -329,6 +330,75 @@ button:hover::before {
   .exitResponsive {
     -webkit-transition: 1s ease;
     transition: 1s ease;
+  }
+}
+
+.pieces-spin-image-responsive {
+  display: none;
+}
+
+.boat-responsive {
+  display: none;
+}
+
+.contact-wavy {
+  display: none;
+}
+
+@media (max-width: 1020px) {
+  p.contact-copy-right {
+    padding-right: 1rem;
+  }
+  .buttons-container button {
+    font-size: 1.75rem;
+  }
+  .button-two {
+    margin-left: 1rem;
+  }
+  .contact-form-flex-top .contact-form-top {
+    width: 41.5%;
+  }
+  .contact-form-bottom textarea {
+    width: 80%;
+  }
+}
+
+@media (max-width: 905px) {
+  .pieces-spin-image-responsive {
+    display: block;
+  }
+  .pieces-spin-image {
+    display: none;
+  }
+  .boat-responsive {
+    display: block;
+  }
+  .boat-regular {
+    display: none;
+  }
+  div.gallery {
+    display: block;
+  }
+  div.pieces {
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+  }
+  div.chuckin-pic {
+    padding-top: 2rem;
+  }
+  .contact-wavy {
+    display: block;
+  }
+  div.contact-top-copy {
+    display: block;
+  }
+  h2.contact-copy-left {
+    width: 100%;
+  }
+  p.contact-copy-right {
+    width: 100%;
+    padding-top: 4rem;
   }
 }
 
@@ -453,7 +523,7 @@ video {
 }
 
 .bio-copy {
-  padding-top: 3rem;
+  padding-top: 4rem;
   width: 80%;
   margin: 0 auto;
 }
@@ -496,7 +566,6 @@ video {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 1rem;
 }
 
 .pieces {
@@ -549,7 +618,7 @@ video {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 0.5rem 0;
+  padding: 1.5rem 0 0;
   margin: 0 auto;
 }
 

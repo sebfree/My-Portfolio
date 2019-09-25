@@ -2,14 +2,13 @@
 @import 'general';
 @import 'mixins';
 @import 'hamburger';
+@import 'responsive';
 
 // HEADER
 
 .nav-scroll {
     background: white;
     height: 5rem;
-
-
 }
 
 .nav-flex {
@@ -116,7 +115,7 @@ video {
 } 
 
 .bio-copy {
-    padding-top: 3rem;
+    padding-top: 4rem;
     width:80%;
     margin:0 auto;  
   
@@ -161,7 +160,7 @@ video {
 
 .gallery {
     display: flex;
-    padding-top: 1rem;
+
 }
 
 .pieces {
@@ -212,7 +211,7 @@ video {
 .skills-icons-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 0.5rem 0;
+    padding: 1.5rem 0 0;
     // padding: 0;
     margin: 0 auto;
     // align-items: center;

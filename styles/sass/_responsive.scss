@@ -1,0 +1,108 @@
+.pieces-spin-image-responsive {
+    display: none;
+}
+
+.boat-responsive {
+    display: none;
+}
+
+.contact-wavy {
+    display: none;
+}
+
+@media (max-width: 1020px) {
+
+    p.contact-copy-right {
+        padding-right: 1rem;
+    }
+
+    .buttons-container button {
+        font-size: 1.75rem;
+    }
+
+    .button-two {
+        margin-left: 1rem;
+    }
+
+    .contact-form-flex-top .contact-form-top {
+        width: 41.5%;
+    }
+
+    .contact-form-bottom textarea {
+        width: 80%;
+    }
+}
+
+@media (max-width: 905px) {
+    .pieces-spin-image-responsive {
+        display: block;
+    }
+
+    .pieces-spin-image {
+        display: none;
+    }
+
+    .boat-responsive {
+        display: block;
+    }
+
+    .boat-regular {
+        display: none;
+    }
+
+    div.gallery {
+        display: block;
+    }
+
+    div.pieces {
+        width: 100%;
+        text-align: center;
+        padding-top: 0;
+    }
+
+
+    div.chuckin-pic {
+        padding-top: 2rem;
+    }
+
+    .contact-wavy {
+        display: block;
+    }
+
+    div.contact-top-copy {
+        display: block;
+    }
+
+    h2.contact-copy-left {
+        width: 100%;
+
+    }
+
+    p.contact-copy-right {
+        width: 100%;
+        padding-top: 4rem;
+    }
+
+
+    
+
+}
+
+
+// @mixin ipad {
+//     @media (max-width: 768px) {@content};
+    
+    
+// }
+
+// @mixin iphonePlus {
+//     @media (max-width: 414px) {@content}; 
+// }
+
+// @mixin iphone678 {
+//     @media (max-width: 375px) {@content}; 
+// }
+
+// @mixin iphone5 {
+//     @media (max-width: 320px) {@content}; 
+// }
