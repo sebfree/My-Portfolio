@@ -466,10 +466,6 @@ button:hover::before {
   p {
     font-size: 1.8rem;
   }
-  div.skills-icon i {
-    background: none;
-    border-radius: none;
-  }
 }
 
 @media (max-width: 620px) {

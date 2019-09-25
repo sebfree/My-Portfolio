@@ -7,17 +7,18 @@ portfolio.smoothScroll = () => {
     });
   };
 
-  portfolio.arrowUp = () => {
-  $('.arrowUpContainer').click(function (event) {
-    event.preventDefault();
-    console.log('clicked!');
-    $('html, body').animate({ scrollTop: 0 }, 800);
-  });
-}
+//   SAVING ARROW UP FUNCTION FOR FUTURE STATE
+//   portfolio.arrowUp = () => {
+//   $('.arrowUpContainer').click(function (event) {
+//     event.preventDefault();
+//     console.log('clicked!');
+//     $('html, body').animate({ scrollTop: 0 }, 800);
+//   });
+// }
 
 $(function(){
     portfolio.smoothScroll()
-    portfolio.arrowUp()
+    // portfolio.arrowUp()
 
     $('.hamburger').click(function(){
         // toggle class show on the menu
@@ -31,11 +32,7 @@ $(function(){
            $(".exitResponsive").toggleClass('show');
         })
 
-    
-    
-    
-    // write a function that listens to a click on the exit icon
-    // toggle class show on the menu
+
     });
 
 

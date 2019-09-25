@@ -184,7 +184,6 @@ video {
 
 .pieces p{
     text-align: justify;
-    // padding-left: 1rem;
 }
 
 .armenia-link {
@@ -195,7 +194,6 @@ video {
 
 .skills-section {
     padding-top: 5.5rem;
-    // background: $offWhite;
 }
 
 .skills-background {
@@ -212,9 +210,7 @@ video {
     display: flex;
     flex-wrap: wrap;
     padding: 1.5rem 0 0;
-    // padding: 0;
     margin: 0 auto;
-    // align-items: center;
 
 }
 
@@ -313,7 +309,6 @@ video {
 // Contact 
 
 .contact-section {
-    // background: $lightYellow;
     padding: 5.5rem 0;
 }
 
@@ -354,7 +349,6 @@ fieldset {
 
 .contact-form-flex-top {
     display: flex;
-    // text-align:center;
     justify-content: center;
 }
 
@@ -382,7 +376,6 @@ fieldset {
 .contact-form-top {
     text-align: center;
     width: 34.15%;
-    // margin: 0 auto;
 }
 
 input, textarea {
@@ -407,17 +400,3 @@ footer {
     text-align: center;
 
 }
-
-
-
-// ::placeholder { /* Firefox, Chrome, Opera */ 
-//     color: black;
-
-
-// }
-
-// ::-ms-input-placeholder { /* Microsoft Edge */
-//     color: #2b2a46;
-//   }
-
-

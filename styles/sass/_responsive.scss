@@ -16,9 +16,6 @@
         padding-right: 1rem;
     }
 
-    // .buttons-container button {
-    //     font-size: 1.75rem;
-    // }
 
     .button-two {
         margin-left: 0;
@@ -66,7 +63,6 @@
         width: 100%;
         text-align: center;
         padding-top: 0;
-        // padding
     }
 
 
@@ -106,10 +102,6 @@
 }
 
 @media (max-width: 768px) {
-    section.hero-section {
-        // height: 65vh;
-    }
-
     .hero-copy h1 {
         font-size: 7rem;
     }
@@ -129,7 +121,6 @@
         margin-left: 0;
         top: 7rem;
         left: 10%;
-        // display: none;
     }
 
     .fa-times {
@@ -184,12 +175,6 @@
         font-size: 1.8rem;
     }
 
-    // trying to remove circles from icons here
-    div.skills-icon i {
-        background: none;
-        border-radius: none;
-    }
-
 }
 
 @media (max-width: 620px) {
@@ -216,22 +201,12 @@
     }
 }
 
-// @media (max-width: 500px) {
-
-    // li.skills-icon  {
-    //     width: 50%;
-    //     }
-    
-    
-    // }
-
 @media (max-width: 500px) {
 
     html {
         font-size: 50%;  
         .firebase {
             display: none;
-        //     margin-left:4.5rem;
         }
     
     
@@ -258,14 +233,6 @@
             padding-top: 1rem;
         }
 
-
-        // nav.nav-scroll.show {
-
-        //     height: 12rem;
-        
-        // }
-
-    
     }
 
     @media (max-width: 347px) {
@@ -279,33 +246,5 @@
 
     }
 
+}
 
-    // @media (max-width: 530px) {
-    //     section.hero-class {
-    //         width: 35rem;
-    //         height: 35rem;
-    //     }
-    //     }
-
-    }
-
-
-
-
-// @mixin ipad {
-//     @media (max-width: 768px) {@content};
-    
-    
-// }
-
-// @mixin iphonePlus {
-//     @media (max-width: 414px) {@content}; 
-// }
-
-// @mixin iphone678 {
-//     @media (max-width: 375px) {@content}; 
-// }
-
-// @mixin iphone5 {
-//     @media (max-width: 320px) {@content}; 
-// }
