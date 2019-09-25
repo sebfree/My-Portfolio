@@ -1,0 +1,47 @@
+.exitResponsive,
+.hamburger {
+   display: none;
+   font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+
+
+        a:hover { 
+            color: inherit; 
+        }
+    
+
+nav {
+    display: none;
+ }
+
+ul li .nav-tinker {
+    font-size: 2rem;
+    padding: 2rem;
+} 
+
+nav.nav-scroll.show {
+    height: 6rem;
+}
+
+ .show {
+     display: flex;
+     justify-content: space-around;
+
+ }
+ .hamburger {
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 10;
+    transition: 1s ease;
+   
+ }
+
+ .exitResponsive {
+     transition: 1s ease;
+ }
+ 
+}

@@ -1,0 +1,311 @@
+.pieces-spin-image-responsive {
+    display: none;
+}
+
+.boat-responsive {
+    display: none;
+}
+
+.contact-wavy {
+    display: none;
+}
+
+@media (max-width: 1020px) {
+
+    p.contact-copy-right {
+        padding-right: 1rem;
+    }
+
+    // .buttons-container button {
+    //     font-size: 1.75rem;
+    // }
+
+    .button-two {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    .contact-form-flex-top .contact-form-top {
+        width: 41.5%;
+    }
+
+    .contact-form-bottom textarea {
+        width: 80%;
+    }
+}
+
+@media (max-width: 905px) {
+
+    button.button-two {
+        margin-left: 2rem;
+
+    }
+    div.pieces-spin-image-responsive {
+        display: block;
+        padding-bottom: 5rem;
+    }
+
+    .pieces-spin-image {
+        display: none;
+    }
+
+    div.boat-responsive {
+        display: block;
+        padding-bottom: 5rem;
+    }
+
+    .boat-regular {
+        display: none;
+    }
+
+    div.gallery {
+        display: block;
+    }
+
+    div.gallery .pieces {
+        width: 100%;
+        text-align: center;
+        padding-top: 0;
+        // padding
+    }
+
+
+    div.gallery .chuckin-pic {
+        padding-top: 3rem;
+    }
+
+    .contact-wavy {
+        display: block;
+    }
+
+    div.contact-top-copy {
+        display: block;
+    }
+
+    h2.contact-copy-left {
+        width: 100%;
+
+    }
+
+    p.contact-copy-right {
+        width: 100%;
+        padding-top: 4rem;
+    }
+
+    div.pieces {
+        padding-top: 2rem;
+    }
+
+    div.pieces .buttons-container {
+        padding-top: 5rem;
+    }
+
+
+    
+
+}
+
+@media (max-width: 768px) {
+    section.hero-section {
+        // height: 65vh;
+    }
+
+    .hero-copy h1 {
+        font-size: 7rem;
+    }
+
+    div.wrapper .hero-copy{
+        padding-bottom: 0;
+    }
+
+    div.hero-stuff {
+        width: 60rem;
+        height: 60rem;
+    }
+
+    .about-me-pic video {
+        width: 15rem;
+        height: 15rem;
+        margin-left: 0;
+        top: 7rem;
+        left: 10%;
+        // display: none;
+    }
+
+    .fa-times {
+        padding-top: 1rem;
+    }
+
+    div.about-me-copy {
+        padding-top: 5rem;
+    }
+
+    div.about-background {
+        padding-top: 5rem;
+    }
+
+    .contact-form-flex-top .contact-form-top {
+        width: 48.5%;
+    }
+
+    .contact-form-bottom textarea {
+        width: 95%;
+    }
+
+
+}
+
+@media (max-width: 680px) {
+
+    html {
+        font-size: 55%;  
+    
+    
+    }
+    div.hero-stuff {
+        width: 45rem;
+        height: 45rem;
+    }
+
+    .hero-copy h1 {
+        font-size: 5rem;
+    }
+
+    ul li .nav-tinker {
+        font-size: 2rem;
+
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+
+    // trying to remove circles from icons here
+    div.skills-icon i {
+        background: none;
+        border-radius: none;
+    }
+
+}
+
+@media (max-width: 620px) {
+    .about-me-pic video {
+        top: -6.5rem;
+        left: 0;
+    }
+
+    section.hero-section {
+        height: 60vh;
+    }
+}
+
+@media (max-width: 575px) {
+    header li {
+        display: flex;
+        text-align: center;
+    }
+
+    nav.nav-scroll.show {
+
+        height: 10rem;
+    
+    }
+}
+
+// @media (max-width: 500px) {
+
+    // li.skills-icon  {
+    //     width: 50%;
+    //     }
+    
+    
+    // }
+
+@media (max-width: 500px) {
+
+    html {
+        font-size: 50%;  
+        .firebase {
+            display: none;
+        //     margin-left:4.5rem;
+        }
+    
+    
+    }
+
+    @media (max-width: 420px) {
+
+        html {
+            font-size: 41%;
+            
+        }
+
+        p  {
+            color: black;
+            font-size: 2rem;
+        }
+
+        button {
+            color: black;
+            font-size: 2rem;
+        }
+
+        span.email-address {
+            padding-top: 1rem;
+        }
+
+
+        // nav.nav-scroll.show {
+
+        //     height: 12rem;
+        
+        // }
+
+    
+    }
+
+    @media (max-width: 347px) {
+
+        button.button-one {
+            margin-left: 2rem;
+        }
+        button.button-two {
+            margin-top: 2rem;
+        }
+
+    }
+
+
+    // @media (max-width: 530px) {
+    //     section.hero-class {
+    //         width: 35rem;
+    //         height: 35rem;
+    //     }
+    //     }
+
+    }
+
+
+
+
+// @mixin ipad {
+//     @media (max-width: 768px) {@content};
+    
+    
+// }
+
+// @mixin iphonePlus {
+//     @media (max-width: 414px) {@content}; 
+// }
+
+// @mixin iphone678 {
+//     @media (max-width: 375px) {@content}; 
+// }
+
+// @mixin iphone5 {
+//     @media (max-width: 320px) {@content}; 
+// }
