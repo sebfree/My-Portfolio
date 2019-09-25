@@ -446,9 +446,12 @@ button:hover::before {
 }
 
 @media (max-width: 680px) {
+  html {
+    font-size: 55%;
+  }
   div.hero-stuff {
-    width: 50rem;
-    height: 50rem;
+    width: 45rem;
+    height: 45rem;
   }
   .hero-copy h1 {
     font-size: 5rem;
@@ -465,6 +468,49 @@ button:hover::before {
   div.skills-icon i {
     background: none;
     border-radius: none;
+  }
+}
+
+@media (max-width: 620px) {
+  .about-me-pic video {
+    top: -6.5rem;
+    left: 0;
+  }
+  section.hero-section {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 470px) {
+  html {
+    font-size: 50%;
+  }
+  html .firebase {
+    width: 16rem;
+  }
+}
+
+@media (max-width: 470px) and (max-width: 380px) {
+  html {
+    font-size: 41%;
+  }
+  p {
+    color: black;
+  }
+  button {
+    color: black;
+  }
+  span.email-address {
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 470px) and (max-width: 339px) {
+  button.button-one {
+    margin-left: 1rem;
+  }
+  button.button-two {
+    margin-top: 2rem;
   }
 }
 
