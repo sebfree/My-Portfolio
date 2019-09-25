@@ -402,6 +402,31 @@ button:hover::before {
   }
 }
 
+@media (max-width: 768px) {
+  .hero-copy h1 {
+    font-size: 7rem;
+  }
+  div.wrapper .hero-copy {
+    padding-bottom: 0;
+  }
+  div.hero-stuff {
+    width: 60rem;
+    height: 60rem;
+  }
+  .about-me-pic video {
+    width: 22.5rem;
+    height: 22.5rem;
+    margin-left: -11.25rem;
+    top: -5rem;
+  }
+  .fa-times {
+    padding-top: 1rem;
+  }
+  div.about-me-copy {
+    padding-top: 22.5rem;
+  }
+}
+
 .nav-scroll {
   background: white;
   height: 5rem;

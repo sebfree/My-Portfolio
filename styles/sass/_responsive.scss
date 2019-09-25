@@ -88,6 +88,41 @@
 
 }
 
+@media (max-width: 768px) {
+    section.hero-section {
+        // height: 65vh;
+    }
+
+    .hero-copy h1 {
+        font-size: 7rem;
+    }
+
+    div.wrapper .hero-copy{
+        padding-bottom: 0;
+    }
+
+    div.hero-stuff {
+        width: 60rem;
+        height: 60rem;
+    }
+
+    .about-me-pic video {
+        width: 22.5rem;
+        height: 22.5rem;
+        margin-left: -11.25rem;
+        top: -5rem;
+        // display: none;
+    }
+
+    .fa-times {
+        padding-top: 1rem;
+    }
+
+    div.about-me-copy {
+        padding-top: 22.5rem;
+    }
+}
+
 
 // @mixin ipad {
 //     @media (max-width: 768px) {@content};
