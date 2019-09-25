@@ -364,14 +364,16 @@ button:hover::before {
 }
 
 @media (max-width: 905px) {
-  .pieces-spin-image-responsive {
+  div.pieces-spin-image-responsive {
     display: block;
+    padding-bottom: 5rem;
   }
   .pieces-spin-image {
     display: none;
   }
-  .boat-responsive {
+  div.boat-responsive {
     display: block;
+    padding-bottom: 5rem;
   }
   .boat-regular {
     display: none;
@@ -379,13 +381,13 @@ button:hover::before {
   div.gallery {
     display: block;
   }
-  div.pieces {
+  div.gallery .pieces {
     width: 100%;
     text-align: center;
     padding-top: 0;
   }
-  div.chuckin-pic {
-    padding-top: 2rem;
+  div.gallery .chuckin-pic {
+    padding-top: 3rem;
   }
   .contact-wavy {
     display: block;
@@ -399,6 +401,12 @@ button:hover::before {
   p.contact-copy-right {
     width: 100%;
     padding-top: 4rem;
+  }
+  div.pieces {
+    padding-top: 2rem;
+  }
+  div.pieces .buttons-container {
+    padding-top: 5rem;
   }
 }
 
@@ -559,7 +567,7 @@ video {
 
 .about-background {
   background: #f9f9f9;
-  padding: 2rem 0 6rem;
+  padding: 6rem 0 6rem;
   -webkit-transition: 3s ease-out;
   transition: 3s ease-out;
 }
@@ -575,7 +583,7 @@ video {
 
 .work-background {
   background: #f9f9f9;
-  padding: 2rem 0 6rem;
+  padding: 6rem 0 1rem;
   -webkit-transition: 3s ease-out;
   transition: 3s ease-out;
 }
@@ -631,7 +639,7 @@ video {
 
 .skills-background {
   background: #f9f9f9;
-  padding: 2.5rem 0 3.5rem;
+  padding: 6rem 0 3.5rem;
   -webkit-transition: 3s ease-out;
   transition: 3s ease-out;
 }
@@ -738,7 +746,7 @@ video {
 
 .contact-background {
   background: #f9f9f9;
-  padding: 2rem 0 0;
+  padding: 6rem 0 4rem;
   -webkit-transition: 3s ease-out;
   transition: 3s ease-out;
 }
@@ -766,7 +774,6 @@ video {
   width: 60%;
   margin: 0;
   text-align: center;
-  padding-top: 1.5rem;
 }
 
 fieldset {

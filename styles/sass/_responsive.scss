@@ -34,16 +34,18 @@
 }
 
 @media (max-width: 905px) {
-    .pieces-spin-image-responsive {
+    div.pieces-spin-image-responsive {
         display: block;
+        padding-bottom: 5rem;
     }
 
     .pieces-spin-image {
         display: none;
     }
 
-    .boat-responsive {
+    div.boat-responsive {
         display: block;
+        padding-bottom: 5rem;
     }
 
     .boat-regular {
@@ -54,15 +56,16 @@
         display: block;
     }
 
-    div.pieces {
+    div.gallery .pieces {
         width: 100%;
         text-align: center;
         padding-top: 0;
+        // padding
     }
 
 
-    div.chuckin-pic {
-        padding-top: 2rem;
+    div.gallery .chuckin-pic {
+        padding-top: 3rem;
     }
 
     .contact-wavy {
@@ -81,6 +84,14 @@
     p.contact-copy-right {
         width: 100%;
         padding-top: 4rem;
+    }
+
+    div.pieces {
+        padding-top: 2rem;
+    }
+
+    div.pieces .buttons-container {
+        padding-top: 5rem;
     }
 
 
@@ -126,6 +137,8 @@
     div.about-background {
         padding-top: 5rem;
     }
+
+
 }
 
 
