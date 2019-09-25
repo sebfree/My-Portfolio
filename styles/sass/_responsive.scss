@@ -107,10 +107,11 @@
     }
 
     .about-me-pic video {
-        width: 22.5rem;
-        height: 22.5rem;
-        margin-left: -11.25rem;
-        top: -5rem;
+        width: 15rem;
+        height: 15rem;
+        margin-left: 0;
+        top: 7rem;
+        left: 10%;
         // display: none;
     }
 
@@ -119,7 +120,11 @@
     }
 
     div.about-me-copy {
-        padding-top: 22.5rem;
+        padding-top: 5rem;
+    }
+
+    div.about-background {
+        padding-top: 5rem;
     }
 }
 
