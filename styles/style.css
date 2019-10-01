@@ -534,9 +534,8 @@ button:hover::before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding: 0;
 }
 
@@ -579,7 +578,7 @@ button:hover::before {
 }
 
 .hero-section {
-  background: #fdf383c7;
+  background: #fdf383;
   height: 70vh;
   overflow: hidden;
   position: relative;
@@ -632,7 +631,7 @@ video {
   margin-left: -12.5rem;
   width: 25rem;
   border-radius: 50%;
-  border: 5px solid #fdf383c7;
+  border: 5px solid #fdf383;
   height: 25rem;
   -o-object-fit: cover;
      object-fit: cover;
