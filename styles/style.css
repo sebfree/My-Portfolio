@@ -241,7 +241,6 @@ a {
 }
 
 button {
-  background: white;
   font-family: 'Anonymous Pro', monospace;
   font-size: 2rem;
   color: #575757;
@@ -249,7 +248,7 @@ button {
   border-radius: 2rem;
   position: relative;
   z-index: 1;
-  border: 3px solid #fce75c;
+  background: #fce75c;
   overflow: hidden;
   -webkit-transition: color 0.4s ease-in-out;
   transition: color 0.4s ease-in-out;
@@ -265,7 +264,7 @@ button::before {
   position: absolute;
   top: 100%;
   right: 100%;
-  background-color: #fce75c;
+  background-color: #fdf383;
   -webkit-transform-origin: center;
           transform-origin: center;
   -webkit-transform: translate3d(50%, -50%, 0) scale3d(0, 0, 0);
