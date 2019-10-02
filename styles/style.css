@@ -387,8 +387,8 @@ button:hover::before {
     text-align: center;
     padding-top: 0;
   }
-  div.gallery .chuckin-pic {
-    padding-top: 3rem;
+  div.gallery .bitter-pic {
+    padding-top: 4rem;
   }
   .contact-wavy {
     display: block;
@@ -407,7 +407,7 @@ button:hover::before {
     padding-top: 2rem;
   }
   div.pieces .buttons-container {
-    padding-top: 5rem;
+    padding: 2rem 0;
   }
 }
 
@@ -744,113 +744,6 @@ video {
   margin: 1rem 0.5rem auto;
   padding: 1rem;
   color: #575757;
-}
-
-.skills-section {
-  padding-top: 5.5rem;
-}
-
-.skills-background {
-  background: #f9f9f9;
-  padding: 6rem 0 3.5rem;
-  -webkit-transition: 3s ease-out;
-  transition: 3s ease-out;
-}
-
-.skills-background:hover {
-  -webkit-box-shadow: 0 0 5px #2b2a46;
-          box-shadow: 0 0 5px #2b2a46;
-}
-
-.skills-icons-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 1.5rem 0 0;
-  margin: 0 auto;
-}
-
-.skills-icon {
-  width: 33.33%;
-  text-align: center;
-  color: #575757;
-  padding: 2.5rem;
-  margin-top: 30px;
-  -webkit-animation: vibrate-1 0.3s linear infinite both;
-  animation: vibrate-1 0.3s linear infinite both;
-}
-
-@-webkit-keyframes vibrate-1 {
-  0% {
-    -webkit-transform: translate(0);
-    transform: translate(0);
-  }
-  20% {
-    -webkit-transform: translate(-2px, 2px);
-    transform: translate(-2px, 2px);
-  }
-  40% {
-    -webkit-transform: translate(-2px, -2px);
-    transform: translate(-2px, -2px);
-  }
-  60% {
-    -webkit-transform: translate(2px, 2px);
-    transform: translate(2px, 2px);
-  }
-  80% {
-    -webkit-transform: translate(2px, -2px);
-    transform: translate(2px, -2px);
-  }
-  100% {
-    -webkit-transform: translate(0);
-    transform: translate(0);
-  }
-}
-
-@keyframes vibrate-1 {
-  0% {
-    -webkit-transform: translate(0);
-    transform: translate(0);
-  }
-  20% {
-    -webkit-transform: translate(-2px, 2px);
-    transform: translate(-2px, 2px);
-  }
-  40% {
-    -webkit-transform: translate(-2px, -2px);
-    transform: translate(-2px, -2px);
-  }
-  60% {
-    -webkit-transform: translate(2px, 2px);
-    transform: translate(2px, 2px);
-  }
-  80% {
-    -webkit-transform: translate(2px, -2px);
-    transform: translate(2px, -2px);
-  }
-  100% {
-    -webkit-transform: translate(0);
-    transform: translate(0);
-  }
-}
-
-.circle {
-  font-size: 5rem;
-  border: 4px solid #fce75c;
-  border-radius: 50%;
-  margin: 0;
-  padding: inherit;
-  background: white;
-}
-
-.easter-egg {
-  display: none;
-}
-
-.firebase {
-  margin: 0;
 }
 
 .contact-section {
