@@ -713,15 +713,37 @@ video {
   text-align: justify;
 }
 
-.armenia-link {
-  color: #dd5616;
+.group-link {
+  color: #cf1e25;
   -webkit-transition: 0.5s ease-out;
   transition: 0.5s ease-out;
 }
 
-.armenia-link:hover {
+.group-link:hover {
   -webkit-box-shadow: 0 0 3px #2b2a46;
           box-shadow: 0 0 3px #2b2a46;
+}
+
+.tech-used {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 2rem;
+}
+
+.tech-used ul {
+  border: 2px #fce75c dashed;
+  background: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem 0.5rem auto;
+  padding: 1rem;
+  color: #575757;
 }
 
 .skills-section {
