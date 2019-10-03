@@ -732,10 +732,10 @@ video {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 2rem;
+  padding: 2rem 0 0;
 }
 
-.tech-used ul {
+.tech-used li {
   border: 2px #fce75c dashed;
   background: white;
   text-align: center;

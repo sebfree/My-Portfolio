@@ -199,10 +199,10 @@ video {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 2rem;
+    padding: 2rem 0 0;
 }
 
-.tech-used ul {
+.tech-used li {
     border: 2px $darkYellow dashed;
     background: white;
     text-align: center;
